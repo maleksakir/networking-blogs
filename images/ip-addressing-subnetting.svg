@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">IP Addressing and Subnetting</text>
+  
+  <!-- IPv4 Address Structure Section -->
+  <rect x="50" y="60" width="700" height="130" rx="10" fill="#e9ecef" stroke="#ced4da" stroke-width="2" />
+  <text x="400" y="80" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">IPv4 Address Structure</text>
+  
+  <!-- IPv4 Address Boxes -->
+  <rect x="100" y="100" width="600" height="60" rx="5" fill="#ffffff" stroke="#6c757d" stroke-width="2" />
+  <line x1="250" y1="100" x2="250" y2="160" stroke="#6c757d" stroke-width="2" />
+  <line x1="400" y1="100" x2="400" y2="160" stroke="#6c757d" stroke-width="2" />
+  <line x1="550" y1="100" x2="550" y2="160" stroke="#6c757d" stroke-width="2" />
+  
+  <text x="175" y="130" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">192</text>
+  <text x="175" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Octet 1</text>
+  
+  <text x="325" y="130" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">168</text>
+  <text x="325" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Octet 2</text>
+  
+  <text x="475" y="130" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">1</text>
+  <text x="475" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Octet 3</text>
+  
+  <text x="625" y="130" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">10</text>
+  <text x="625" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Octet 4</text>
+  
+  <text x="400" y="180" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">32-bit address: 192.168.1.10</text>
+  
+  <!-- Address Classes Section -->
+  <rect x="50" y="200" width="335" height="180" rx="10" fill="#e9ecef" stroke="#ced4da" stroke-width="2" />
+  <text x="217" y="220" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">IPv4 Address Classes</text>
+  
+  <!-- Class A -->
+  <rect x="70" y="240" width="295" height="25" rx="5" fill="#ffffff" stroke="#28a745" stroke-width="2" />
+  <rect x="70" y="240" width="60" height="25" rx="5" fill="#28a745" stroke="#28a745" stroke-width="0" />
+  <text x="100" y="257" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">0</text>
+  <text x="217" y="257" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Class A: 0.0.0.0 - 127.255.255.255</text>
+  
+  <!-- Class B -->
+  <rect x="70" y="275" width="295" height="25" rx="5" fill="#ffffff" stroke="#007bff" stroke-width="2" />
+  <rect x="70" y="275" width="60" height="25" rx="5" fill="#007bff" stroke="#007bff" stroke-width="0" />
+  <text x="100" y="292" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">10</text>
+  <text x="217" y="292" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Class B: 128.0.0.0 - 191.255.255.255</text>
+  
+  <!-- Class C -->
+  <rect x="70" y="310" width="295" height="25" rx="5" fill="#ffffff" stroke="#fd7e14" stroke-width="2" />
+  <rect x="70" y="310" width="60" height="25" rx="5" fill="#fd7e14" stroke="#fd7e14" stroke-width="0" />
+  <text x="100" y="327" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">110</text>
+  <text x="217" y="327" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Class C: 192.0.0.0 - 223.255.255.255</text>
+  
+  <!-- Class D -->
+  <rect x="70" y="345" width="295" height="25" rx="5" fill="#ffffff" stroke="#6f42c1" stroke-width="2" />
+  <rect x="70" y="345" width="60" height="25" rx="5" fill="#6f42c1" stroke="#6f42c1" stroke-width="0" />
+  <text x="100" y="362" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">1110</text>
+  <text x="217" y="362" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Class D: 224.0.0.0 - 239.255.255.255</text>
+  
+  <!-- CIDR and Subnet Mask Section -->
+  <rect x="415" y="200" width="335" height="180" rx="10" fill="#e9ecef" stroke="#ced4da" stroke-width="2" />
+  <text x="582" y="220" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">CIDR Notation &amp; Subnet Masks</text>
+  
+  <!-- CIDR Examples -->
+  <rect x="435" y="240" width="295" height="130" rx="5" fill="#ffffff" stroke="#6c757d" stroke-width="2" />
+  <line x1="580" y1="240" x2="580" y2="370" stroke="#6c757d" stroke-width="2" />
+  
+  <text x="507" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">CIDR Notation</text>
+  <text x="507" y="280" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">192.168.1.0/24</text>
+  <text x="507" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">10.0.0.0/8</text>
+  <text x="507" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">172.16.0.0/16</text>
+  <text x="507" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">192.168.1.0/28</text>
+  <text x="507" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">10.10.10.0/29</text>
+  
+  <text x="638" y="260" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">Subnet Mask</text>
+  <text x="638" y="280" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">255.255.255.0</text>
+  <text x="638" y="300" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">255.0.0.0</text>
+  <text x="638" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">255.255.0.0</text>
+  <text x="638" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">255.255.255.240</text>
+  <text x="638" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">255.255.255.248</text>
+  
+  <!-- Subnetting Example Section -->
+  <rect x="50" y="390" width="700" height="160" rx="10" fill="#e9ecef" stroke="#ced4da" stroke-width="2" />
+  <text x="400" y="410" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Subnetting Example: 192.168.1.0/24 into Four Subnets</text>
+  
+  <!-- Network Diagram -->
+  <rect x="70" y="430" width="660" height="100" rx="5" fill="#ffffff" stroke="#6c757d" stroke-width="2" />
+  
+  <!-- Router -->
+  <circle cx="400" cy="480" r="20" fill="#fd7e14" stroke="#333" stroke-width="2" />
+  <text x="400" y="485" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">R</text>
+  
+  <!-- Subnets -->
+  <rect x="90" y="450" width="130" height="60" rx="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" />
+  <text x="155" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">192.168.1.0/26</text>
+  <text x="155" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Hosts: 1-62</text>
+  
+  <rect x="250" y="450" width="130" height="60" rx="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" />
+  <text x="315" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">192.168.1.64/26</text>
+  <text x="315" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Hosts: 65-126</text>
+  
+  <rect x="430" y="450" width="130" height="60" rx="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" />
+  <text x="495" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">192.168.1.128/26</text>
+  <text x="495" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Hosts: 129-190</text>
+  
+  <rect x="590" y="450" width="130" height="60" rx="5" fill="#d1ecf1" stroke="#0c5460" stroke-width="2" />
+  <text x="655" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">192.168.1.192/26</text>
+  <text x="655" y="500" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Hosts: 193-254</text>
+  
+  <!-- Connection Lines -->
+  <line x1="220" y1="480" x2="380" y2="480" stroke="#333" stroke-width="2" />
+  <line x1="420" y1="480" x2="430" y2="480" stroke="#333" stroke-width="2" />
+  <line x1="560" y1="480" x2="590" y2="480" stroke="#333" stroke-width="2" />
+  
+  <!-- IPv6 Section -->
+  <rect x="50" y="560" width="700" height="30" rx="10" fill="#e9ecef" stroke="#ced4da" stroke-width="2" />
+  <text x="400" y="580" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">IPv6: 2001:0db8:85a3:0000:0000:8a2e:0370:7334 (128-bit address)</text>
+</svg>
